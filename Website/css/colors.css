@@ -1,0 +1,16 @@
+.color-primary {
+    background-color: #000a99 !important;
+    border-color: #000a99 !important;
+}
+.color-background {
+    background-color: #1c1c1c !important;
+}
+.color-secondary {
+    background-color: #1d0075 !important;
+}
+.color-accent {
+    background-color: #006f94 !important;
+}
+.color-text, p, h1, h2, h3, h4, h5, h6{
+    color: #dadada !important;
+}

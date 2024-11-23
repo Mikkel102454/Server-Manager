@@ -14,11 +14,47 @@ header h6 {
     line-height: 1.7;
 }
 .login {
-    height: 50vh !important;
-    width: 50% !important;
-    margin-top: 10%;
-    border-color: black !important;
-    border-width: 10px !important;
+    height: 70vh !important;
+    width: 340px !important;
+    margin-top: 100px;
+}
+.login * {
+    margin-top: 15px;
+    width: 100%;
+    height: 50px;
+    align-self: center; /* Works only if the parent has display: flex */
+    padding: 0; /* Replace "auto" with 0 or other padding values */
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding doesn't affect total width/height */
+    font-size: 16px;
+    border-style: none !important;
+    border-radius: 10px;
+}
+
+.login input {
+    text-align: left;
+    padding: 10px;
+    background-color: transparent !important;
     border-style: solid !important;
-    border-radius: 50px;
+}
+.login h3{
+    font-size: 50px;
+}
+.login p {
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.login .seperator {
+    color: #555;
+    font-size: 18px;
+    margin: 20px 0;
+    gap: 10px;
+}
+.login .seperator:before, .login .seperator:after {
+    content: "";
+    border-bottom: 1px solid #c2c8d0;
+    flex: 1 0 auto;
+    height: 2px;
+    margin: 0;
 }

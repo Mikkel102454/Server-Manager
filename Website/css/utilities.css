@@ -22,3 +22,7 @@
 .center {
     align-self: center !important;
 }
+.flex-center {
+    align-items: center;
+    text-align: center;
+}
