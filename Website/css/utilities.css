@@ -11,22 +11,24 @@
     display: flex !important;
 }
 .flex-justify-end {
-    justify-content: flex-end;
+    justify-content: flex-end !important;
 }
 .v-align-baseline {
     vertical-align: baseline !important;
 }
 .flex-column {
-    flex-direction: column;
+    flex-direction: column !important;
 }
 .center {
     align-self: center !important;
 }
 .flex-center {
-    align-items: center;
-    text-align: center;
+    align-items: center !important;
+    text-align: center !important;
 }
-
+.d-grid {
+    display: grid !important;
+}
 
 
 
@@ -50,4 +52,8 @@ header h6 {
     margin: 20px;
     margin-right: 5px;
     line-height: 1.7;
+}
+
+.rounded {
+    border-radius: 15px;
 }

@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Optional background color */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px; /* Adjust as necessary */
+    height: 400px; /* Adjust as necessary */
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+.item {
+    background-color: gold;
+    border: 2px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-1, .item-4 {
+    width: 33.33%; /* 1/3 of the container width */
+    height: 50%; /* Half the container height */
+}
+
+.item-2, .item-5 {
+    width: 33.33%; /* 1/3 of the container width */
+    height: 50%; /* Half the container height */
+}
+
+.item-3 {
+    width: 33.33%; /* 1/3 of the container width */
+    height: 100%; /* Full container height */
+}

@@ -1,16 +1,38 @@
 .color-primary {
-    background-color: #000a99 !important;
-    border-color: #000a99 !important;
+    background-color: #24243c !important;
+    border-color: #24243c !important;
 }
 .color-background {
-    background-color: #1c1c1c !important;
+    background-color: #1c1b2b !important;
 }
 .color-secondary {
-    background-color: #1d0075 !important;
+    background-color: #1577d4 !important;
+    border-color: #1577d4 !important;
 }
 .color-accent {
-    background-color: #006f94 !important;
+    background-color: #161622 !important;
 }
 .color-text, p, h1, h2, h3, h4, h5, h6{
-    color: #dadada !important;
+    color: #F8F8FF !important;
+}
+
+.color-red{
+    background-color: red !important;
+}
+.color-green {
+    background-color: green !important;
+}
+.color-gray {
+    background-color: rgb(160, 160, 160) !important;
+}
+
+
+.text-standart {
+
+}
+.text-title {
+
+}
+.text-big-title {
+
 }

@@ -24,7 +24,6 @@ header {
 nav {
     z-index: 95;
     position: fixed;
-    background-color: gray !important;
     height: 100%;
     width: 250px;
     overflow-y: auto;
@@ -95,18 +94,52 @@ nav .selected-server {
     background-image: url('https://placeholder.com/50');
 }
 
-
-
 .content {
-    margin-top: 80px;
-    margin-left: 250px;
-    overflow: hidden;
+    margin: 0 385px;
+    height: 100vh;
+}
+
+.content .head {
+    margin-bottom: 25px;
+    height: 21vh;
+}
+.content .main {
+    height: 69vh;
     justify-content: space-between;
 }
-.system-panel {
-    margin: 25px;
-    height: 100px;
-    width: 400px;
-    border-radius: 15px;
-    background-color: rgb(11, 20, 73);
+
+.content .head .server-head {
+    height: 74%;
+    width: 100%;
+}
+.content .head .server-headnav {
+    height: 26%;
+    width: 100%;
+}
+
+.server-right {
+    width: 59%;
+    height: 100%;
+    gap: 25px;
+}
+.server-left {
+    width: 39%;
+    height: 100%;
+    gap: 25px;
+}
+
+.server-left .server-server {
+    height: 44%;
+}
+.server-left .server-framwork {
+    height: 24%;
+}
+.server-left .server-storage {
+    height: 28%;
+}
+.server-right .server-console {
+    height: 60%;
+}
+.server-right .server-monitor {
+    height: 40%;
 }

@@ -9,19 +9,8 @@
     <link rel="stylesheet" type="text/css" href="../css/interactives.css" />
     <link rel="stylesheet" type="text/css" href="../css/colors.css" />
 </head>
-<body class="d-flex flex-column color-background ">
-    <header class="w-100 d-flex flex-justify-end" id="header">
-        <h6 class="text-center">Dark Mode</h6>
-        <label class="switch v-align-baseline">
-            <input type="checkbox">
-            <span class="slider round"></span>
-        </label>
-    </header>
-    <nav class="navigator">
-        <div class="selected-server">
-            <h4>Mikkel102454</h4>
-            <h5>9F723HR3</h5>
-        </div>
+<body class="d-flex flex-column color-background">
+    <nav class="navigator"> 
         <ul class="server-nav-menu">
             <h6 class="title color-text">Server Configuration</h6>
             <a href="/server.html" class="item color-text d-flex" title="Server">
@@ -93,12 +82,20 @@
         </ul>
     </nav>
     <div class="content">
-
-        <div class="d-flex">
-            <div class="system-panel server-status"></div>
-            <div class="system-panel server-info"></div>
-            <div class="system-panel server-cmd"></div>
-            <div class="system-panel server-monitor"></div>
+        <div class="head d-flex flex-column">
+            <div class="panel server-head d-flex "></div>
+            <div class="panel server-headnav d-flex color-primary rounded"></div>
+        </div>
+        <div class="main d-flex">
+            <div class="server-left d-flex flex-column">
+                <div class="panel server-server d-flex color-primary rounded"></div>
+                <div class="panel server-framwork d-flex color-primary rounded"></div>
+                <div class="panel server-storage d-flex color-primary rounded"></div>
+            </div>
+            <div class="server-right d-flex flex-column">
+                <div class="panel server-console d-flex color-primary rounded"></div>
+                <div class="panel server-monitor d-flex color-primary rounded"></div>
+            </div>
         </div>
     </div>
 
