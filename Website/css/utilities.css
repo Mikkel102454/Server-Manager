@@ -26,3 +26,28 @@
     align-items: center;
     text-align: center;
 }
+
+
+
+
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 80px;
+}
+header .switch {
+    margin: 26px !important;
+    margin-right: 10px;
+}
+header h6 {
+    font-size: 20px;
+    margin: 20px;
+    margin-right: 5px;
+    line-height: 1.7;
+}

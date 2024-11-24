@@ -1,18 +1,4 @@
-header {
-    height: 60px;
-    border-radius: 15px;
-}
 
-
-header .switch {
-    margin: 16px !important;
-    margin-right: 10px;
-}
-header h6 {
-    font-size: 20px;
-    margin: 10px;
-    line-height: 1.7;
-}
 .login {
     height: 70vh !important;
     width: 340px !important;
